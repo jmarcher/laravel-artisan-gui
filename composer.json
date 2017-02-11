@@ -1,0 +1,32 @@
+{
+    "name": "jmarcher/laravel-artisan-gui",
+    "description": "The Artisan Graphic Interface that Laravel deserves.",
+    "license": "MIT",
+    "homepage": "https://github.com/jmarcher/laravel-artisan-gui",
+    "support": {
+        "issues": "https://github.com/jmarcher/laravel-artisan-gui/issues",
+        "source": "https://github.com/jmarcher/laravel-artisan-gui"
+    },
+    "authors": [
+        {
+            "name": "Joaquín Marcher",
+            "email": "joaquin@marcher.com.uy"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/contracts": "5.4.*",
+        "illuminate/support": "5.4.*"
+    },
+    "replace": {
+        "tightenco/collect": "v5.4.9"
+    },
+    "autoload":{
+        "psr-4":{
+            "Marcher\\ArtisanGui\\":"src/JMarcher/ArtisanGui"
+        }
+    },
+    "suggest": {
+        "laravel/tinker": "Powerful REPL for the Laravel framework. (1.0.*)."
+    }
+}
